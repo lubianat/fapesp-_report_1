@@ -42,8 +42,8 @@ FAPESP
 FARMACÊUTICAS
 FCBF
 FCGR
-fcoex
-Findable
+Fcoex
+findable
 fo
 formalizations
 Franzen
@@ -56,13 +56,13 @@ GZMA
 HCA
 heatmap
 Helder
-henle
+Henle
 HLA
 HuBMAP
 Imoto
 infratype
 infratypes
-interoperable
+Interoperable
 iscb
 janeroe
 Jeevan
@@ -81,7 +81,7 @@ neuro
 neurogenesis
 neutrophil
 neutrophils
-nk
+NK
 OBO
 oligodendrocyte
 OMP
@@ -92,8 +92,8 @@ Panglao
 PanglaoDB
 PanglaoDB’s
 pathophysiology
-Paulo
-PBMC
+PAULO
+pbmc
 PCSK
 perfomed
 pre

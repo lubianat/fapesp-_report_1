@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/fapesp_report_1/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/fapesp_report_1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/fapesp_report_1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/fapesp_report_1/v/060b6106fd817b8039c6a9a099ec146ad6dc3362/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/060b6106fd817b8039c6a9a099ec146ad6dc3362/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/060b6106fd817b8039c6a9a099ec146ad6dc3362/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/fapesp_report_1/v/0d9bb3e0345c6600285638f730a70e077bcdda20/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/0d9bb3e0345c6600285638f730a70e077bcdda20/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/0d9bb3e0345c6600285638f730a70e077bcdda20/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/fapesp_report_1/v/060b6106fd817b8039c6a9a099ec146ad6dc3362/))
+([permalink](https://lubianat.github.io/fapesp_report_1/v/0d9bb3e0345c6600285638f730a70e077bcdda20/))
 was automatically generated
-from [lubianat/fapesp_report_1@060b610](https://github.com/lubianat/fapesp_report_1/tree/060b6106fd817b8039c6a9a099ec146ad6dc3362)
+from [lubianat/fapesp_report_1@0d9bb3e](https://github.com/lubianat/fapesp_report_1/tree/0d9bb3e0345c6600285638f730a70e077bcdda20)
 on June 17, 2021.
 </em></small>
 
@@ -205,7 +205,7 @@ To find co-expression modules, fcoex inverts the FCBF feature selection algorith
 Fcoex treats each module as a gene set to find cell populations, using only their expression to re-cluster cells. The new classifications are based, thus, on the genes (and functions) captured by each co-expression module.  The multiple module-based clusters serve as a platform for exploring the diversity of the dataset and identifying upper cell classes, grouping cells by common functions. 
 
 
-![Reclustering based on co-expression modules sheds light on cell diversity. The pre-labeled pbmc3k dataset, with original, SeuratData labels. B) fcoex coexpression modules capture patterns across PBMC populations. C-D) Module-based reclustering shows groupings of original clusters, visible both via UMAP projection and cluster x cluster heatmap. E) Upper-level, multilayer classification of the pbmc3k dataset based on fcoex  modules. APCs: Antigen Processing Cells; ADCC: Antibody-dependent cellular cytotoxicity.](images/fcoex_2021-06-09.jpg){#fig:fcoex}
+![Reclustering based on co-expression modules sheds light on cell diversity. The pre-labeled pbmc3k dataset, with original, SeuratData labels. B) fcoex coexpression modules capture patterns across PBMC populations. C-D) Module-based reclustering shows groupings of original clusters, visible both via UMAP projection and cluster x cluster heatmap. E) Upper-level, multilayer classification of the pbmc3k dataset based on fcoex  modules. APCs: Antigen Processing Cells; ADCC: Antibody-dependent cellular cytotoxicity.](images/fcoex.jpg){#fig:fcoex}
 
 ### Multi-hierarchies of blood types
 
@@ -414,7 +414,7 @@ __ADAPT FROM THE ORIGINAL PROJECT__
 
 
 
-# Preprints and articles submitted for publication
+# Preprints and articles submitted for publication  {.page_break_before}
 
 - Fcoex 
 - Technotype
