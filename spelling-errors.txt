@@ -42,7 +42,7 @@ FAPESP
 FARMACÊUTICAS
 FCBF
 FCGR
-Fcoex
+fcoex
 findable
 fo
 formalizations
@@ -50,7 +50,6 @@ Franzen
 fugacious
 geneLabel
 Genomic
-Giddaluru
 GL
 GZMA
 HCA
@@ -62,13 +61,13 @@ HuBMAP
 Imoto
 infratype
 infratypes
-Interoperable
+interoperable
 iscb
 janeroe
-Jeevan
 johndoe
 labome
 LOD
+Lubiana
 Ly
 mentiongs
 monocytes
@@ -81,7 +80,7 @@ neuro
 neurogenesis
 neutrophil
 neutrophils
-NK
+nk
 OBO
 oligodendrocyte
 OMP
@@ -92,8 +91,8 @@ Panglao
 PanglaoDB
 PanglaoDB’s
 pathophysiology
-PAULO
-pbmc
+Paulo
+PBMC
 PCSK
 perfomed
 pre
@@ -121,9 +120,10 @@ stricto
 sucessfull
 Tabula
 Takashi
-technotype
+Technotype
 technotypes
 tecnichal
+Tiago
 Toxicológicas
 UMAP
 understandability

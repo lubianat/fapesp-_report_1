@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/fapesp_report_1/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/fapesp_report_1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/fapesp_report_1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/fapesp_report_1/v/0d9bb3e0345c6600285638f730a70e077bcdda20/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/0d9bb3e0345c6600285638f730a70e077bcdda20/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/0d9bb3e0345c6600285638f730a70e077bcdda20/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/fapesp_report_1/v/f10dfcfd99f46d50c2f751b94ae4e68599c871fe/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/f10dfcfd99f46d50c2f751b94ae4e68599c871fe/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/f10dfcfd99f46d50c2f751b94ae4e68599c871fe/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/fapesp_report_1/v/0d9bb3e0345c6600285638f730a70e077bcdda20/))
+([permalink](https://lubianat.github.io/fapesp_report_1/v/f10dfcfd99f46d50c2f751b94ae4e68599c871fe/))
 was automatically generated
-from [lubianat/fapesp_report_1@0d9bb3e](https://github.com/lubianat/fapesp_report_1/tree/0d9bb3e0345c6600285638f730a70e077bcdda20)
+from [lubianat/fapesp_report_1@f10dfcf](https://github.com/lubianat/fapesp_report_1/tree/f10dfcfd99f46d50c2f751b94ae4e68599c871fe)
 on June 17, 2021.
 </em></small>
 
@@ -106,23 +106,25 @@ Departamento de Análises Clínicas e Toxicológicas
 
 
 
-Study of transmission of diseases using cell phones data from infected people
 
 
-Direct Doctorate Project - Report 1
-FAPESP process number: 2019/16419-7
-Project term: 01/09/2019 to 31/08/2023
-Period of Scientific report: 01/09/2019 to 30/11/2020
+
+Doctorate Project - Report 1
+FAPESP process number: 
+Project term: 
+Period of Scientific report:
 
 
-Scholarship Holder: Jeevan Giddaluru
+Scholarship Holder: Tiago Lubiana
+
 Responsible Researcher: Prof. Dr. Helder Takashi Imoto Nakaya
 
 São Paulo - SP
 November 2020
 
 
-# Project summary
+# Project summary  {.page_break_before}
+
 
 The advent of single-cell technologies has ignited the desire of a deep knowledge on cells, the building blocks of life [@wikidata:Q99418649]. 
 The Human Cell Atlas (HCA) project, has been a major player in the cell knowledge ecosystem, running since 2017 towards the task to characterize every cell type in the human body [@wikidata:Q46368626]. The HCA consortium recruited people from all over the world to tackle different parts of the project. In Brazil, Prof. Helder Nakaya (supervisor of this PhD project) is leading the national effort to contribute to HCA, with a focus on the roles of different cell types in the pathological processes of infectious and inflammatory diseases.
@@ -184,7 +186,8 @@ The specific goals outlined in the approved project were:
 - Create tools to make data from the underlying knowledge graph accessible employing tools from network theory.
 
 
-# Achievements 
+# Achievements {.page_break_before}
+
 
 
 In the first year of the project, we addressed 3 different facets of the project. 
@@ -216,7 +219,9 @@ The standard fcoex pipeline detected nine modules that capture different parts o
 In general, fcoex clusters combined biologically similar cell types of the original dataset. The clusterings help to explore and classify cells by function (@fig:fcoex E). Even in a well-studied dataset, fcoex provided a new light on the shared functionality of some NK cells and macrophages: they both markedly express the CD16-coding gene FCGR3A, whose product is a key player in antibody-dependent cellular cytotoxicity (ADCC). [@wikidata:Q27341786] Thus, a complete functional classification of cells might want to include a “professional ADCC cells" class
 
 To sum up, main goal of the fcoex pipeline is to use the modules to find biologically relevant populations, which then can be represented in ontologies, like the Cell Ontology [@wikidata:Q36067763], and by knowledge graphs, like Wikidata. By doing so, fcoex offers new avenues to explore data-driven classifications of cells, aligning itself with  the challenges of the Human Cell Atlas and building catalogs of cell types in the single-cell era.
-## Concept of cell types
+
+## Concept of cell types  {.page_break_before}
+
 
 During the development of _fcoex_ we assumed the common notions of cell type, as a group of cells that share common features. The definition of the concept of "cell type", however, is currently a topic of debate by the biomedical community.[@wikidata:Q87649649; @doi:10.1242/dev.169854; @doi:10.1242/dev.178996; @wikidata:Q47565008; @wikidata:Q99418657; @wikidata:Q98665291; @wikidata:Q93086971; @wikidata:Q26770736; @wikidata:Q35688096; @wikidata:Q98633613; @wikidata:Q99418649; @wikidata:Q40436539].
 In an opinion article published in Cell Systems in 2017, a series of researchers presented their views on the conceptual definition of 'cell type' in the context of a mature organism [@wikidata:Q87649649].
@@ -257,7 +262,7 @@ The ontological discussion on the classes of cell types, thus, extends the curre
 Notably, the technotype and the infratype are, currently, mostly theoretical constructs and almost no resources deal with cell types at the level of strains or below. 
 The division of archetypes and _sensu stricto_ cell types, on the other hand, was already instrumental for the integration of the Panglao database of cell markers to Wikidata, described in the next session.
 
-## PanglaoDB integration to Wikidata
+## PanglaoDB integration to Wikidata  {.page_break_before}
 
 The process of making the Human Cell Atlas more useful via Wikidata also includes the connection of related databases. 
 
@@ -386,7 +391,7 @@ The approach we took here can in essence be applied to any knowledge set of publ
 
 
 
-# Next steps
+# Next steps  {.page_break_before}
 
 
 After this groundwork, the next steps of this PhD project will be geared towards increased alignment with the representation of knowledge of the Human Cell Atlas. 
