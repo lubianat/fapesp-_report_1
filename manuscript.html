@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="John Doe" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2021-06-17" />
+  <meta name="dcterms.date" content="2021-06-21" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Manuscript Title</title>
   <style>
@@ -48,8 +48,8 @@
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-06-17" />
-  <meta name="citation_publication_date" content="2021-06-17" />
+  <meta name="dc.date" content="2021-06-21" />
+  <meta name="citation_publication_date" content="2021-06-21" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -70,9 +70,9 @@
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/fapesp_report_1/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/fapesp_report_1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/fapesp_report_1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/fapesp_report_1/v/f10dfcfd99f46d50c2f751b94ae4e68599c871fe/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/f10dfcfd99f46d50c2f751b94ae4e68599c871fe/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/f10dfcfd99f46d50c2f751b94ae4e68599c871fe/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/fapesp_report_1/v/7f8e11bbc32c792bedcfee9e0b697aa6a2d2232a/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/7f8e11bbc32c792bedcfee9e0b697aa6a2d2232a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/7f8e11bbc32c792bedcfee9e0b697aa6a2d2232a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -86,10 +86,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lubianat.github.io/fapesp_report_1/v/f10dfcfd99f46d50c2f751b94ae4e68599c871fe/">permalink</a>)
+(<a href="https://lubianat.github.io/fapesp_report_1/v/7f8e11bbc32c792bedcfee9e0b697aa6a2d2232a/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lubianat/fapesp_report_1/tree/f10dfcfd99f46d50c2f751b94ae4e68599c871fe">lubianat/fapesp_report_1@f10dfcf</a>
-on June 17, 2021.
+from <a href="https://github.com/lubianat/fapesp_report_1/tree/7f8e11bbc32c792bedcfee9e0b697aa6a2d2232a">lubianat/fapesp_report_1@7f8e11b</a>
+on June 21, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -173,14 +173,15 @@ The specific goals outlined in the approved project were:</p>
 </ul>
 <h1 class="page_break_before" id="achievements">Achievements</h1>
 <p>In the first year of the project, we addressed 3 different facets of the project.</p>
-<p>The first facet was the refinement of the fcoex R/Bioconductor project, written for the detection of cell classes in single-cell RNA-seq data.
+<p>The first facet was the refinement of the fcoex R/Bioconductor framework, written for the detection of cell classes in single-cell RNA-seq data.
 The second facet dealt with the concept of cell type itself, in the goal of building theoretical models for the formalization of knowledge.
 The third facet was aimed at the practical application of the concepts.
 We adapted a public database of cell type markers, Panglao DB, to the Wikidata format, made the information available through Wikidata and perfomed SPARQL (SPARQL Protocol and RDF Query Language) queries to glance at the information on the database.</p>
 <h2 id="fcoex-using-coexpression-to-explore-cell-type-diversity-in-scrna-seq-data">Fcoex: using coexpression to explore cell type diversity in scRNA-seq data</h2>
 <p>The fcoex (https://bioconductor.org/packages/fcoex/) was written by us to identify coexpression modules and cell populations in single-cell RNA-seq data. During the first year of this PhD projects, we worked on framing its use in the context of cell type representation and the Human Cell Atlas. The package was refactored and upgraded to conform to the new versions of R (now in 4.1.0) and Bioconductor (now in 3.12). We also developed the narrative and shaped the manuscript for submission.</p>
 <p>The fcoex method is designed for application right after a standard scRNA-seq clustering step (<a href="#fig:fcoex">1</a> A). The cluster assignments convey information about the relations between cells to the algorithm and help to guide feature selection. Then, the package selects global marker genes specific to 1, 2, or more previously defined clusters. It ranks markers by symmetrical uncertainty, a non-linear correlation metric based on classical Shannon entropy. <span class="citation" data-cites="cFQY1evO">[<a href="#ref-cFQY1evO" role="doc-biblioref">21</a>]</span></p>
-<p>To find co-expression modules, fcoex inverts the FCBF feature selection algorithm, and instead of removing redundancy, it selects redundant (co-expressed) gene expression patterns. (see Supplementary Data for details). The default gene coexpression modules yielded by the pipeline are small by design (10s of genes per module) to facilitate manual exploration of the coexpression landscape. Each module has one “header” gene, which expression pattern better represents all the genes in the module.</p>
+<p>To find co-expression modules, fcoex inverts the FCBF feature selection algorithm, and instead of removing redundancy, it selects redundant (co-expressed) gene expression patterns.
+The default gene coexpression modules yielded by the pipeline are small by design (10s of genes per module) to facilitate manual exploration of the coexpression landscape. Each module has one “header” gene, which expression pattern better represents all the genes in the module.</p>
 <p>Fcoex treats each module as a gene set to find cell populations, using only their expression to re-cluster cells. The new classifications are based, thus, on the genes (and functions) captured by each co-expression module. The multiple module-based clusters serve as a platform for exploring the diversity of the dataset and identifying upper cell classes, grouping cells by common functions.</p>
 <div id="fig:fcoex" class="fignos">
 <figure>
@@ -189,9 +190,16 @@ We adapted a public database of cell type markers, Panglao DB, to the Wikidata f
 </div>
 <h3 id="multi-hierarchies-of-blood-types">Multi-hierarchies of blood types</h3>
 <p>To validate the fcoex pipeline, we selected the well-known pbmc3k dataset from the SeuratData R package, which contains around 2700 peripheral blood mononuclear cells (PBMC) with previously-defined cluster labels.</p>
-<p>The standard fcoex pipeline detected nine modules that capture different parts of the cellular diversity in the dataset. For example, module M8 contains cytotoxicity genes, as PRF1 and GZMA, and splits the dataset into cytotoxic (NK and CD8) and non-cytotoxic cells. M2 (CD3D) splits the dataset in T-cells and non-T-cells. M5 (HLA-DRB1) groups together monocytes, B cells, and dendritic cells, all known antigen-presenting cells (APC). (<a href="#fig:fcoex">1</a> B-E) The classifications provided by fcoex are easily reintegrated to Seurat to power visualizations and get differentially expressed markers, providing more genes for the analysis, if desired.</p>
-<p>In general, fcoex clusters combined biologically similar cell types of the original dataset. The clusterings help to explore and classify cells by function (<a href="#fig:fcoex">1</a> E). Even in a well-studied dataset, fcoex provided a new light on the shared functionality of some NK cells and macrophages: they both markedly express the CD16-coding gene FCGR3A, whose product is a key player in antibody-dependent cellular cytotoxicity (ADCC). <span class="citation" data-cites="xk3HGry1">[<a href="#ref-xk3HGry1" role="doc-biblioref">22</a>]</span> Thus, a complete functional classification of cells might want to include a “professional ADCC cells” class</p>
-<p>To sum up, main goal of the fcoex pipeline is to use the modules to find biologically relevant populations, which then can be represented in ontologies, like the Cell Ontology <span class="citation" data-cites="agnqfdk6">[<a href="#ref-agnqfdk6" role="doc-biblioref">23</a>]</span>, and by knowledge graphs, like Wikidata. By doing so, fcoex offers new avenues to explore data-driven classifications of cells, aligning itself with the challenges of the Human Cell Atlas and building catalogs of cell types in the single-cell era.</p>
+<p>The standard fcoex pipeline detected nine modules that capture different parts of the cellular diversity in the dataset.
+For example, module M8 contains cytotoxicity genes, as PRF1 and GZMA, and splits the dataset into cytotoxic (NK and CD8) and non-cytotoxic cells. M2 (CD3D) splits the dataset in T-cells and non-T-cells.
+M5 (HLA-DRB1) groups together monocytes, B cells, and dendritic cells, all known antigen-presenting cells (APC) (<a href="#fig:fcoex">1</a> B-E)
+The classifications provided by fcoex are easily reintegrated to Seurat to power visualizations and get differentially expressed markers, providing more genes for the analysis, if desired.</p>
+<p>In general, fcoex clusters combined biologically similar cell types of the original dataset.
+The clusterings help to explore and classify cells by function (<a href="#fig:fcoex">1</a> E).
+Even in a well-studied dataset, fcoex provided a new light on the shared functionality of some NK cells and macrophages: they both markedly express the CD16-coding gene FCGR3A, whose product is a key player in antibody-dependent cellular cytotoxicity (ADCC). <span class="citation" data-cites="xk3HGry1">[<a href="#ref-xk3HGry1" role="doc-biblioref">22</a>]</span>
+Thus, a complete functional classification of cells might want to include a “professional ADCC cells” class</p>
+<p>To sum up, main goal of the fcoex pipeline is to use the modules to find biologically relevant populations, which then can be represented in ontologies, like the Cell Ontology <span class="citation" data-cites="agnqfdk6">[<a href="#ref-agnqfdk6" role="doc-biblioref">23</a>]</span>, and by knowledge graphs, like Wikidata.
+By doing so, fcoex offers new avenues to explore data-driven classifications of cells, aligning itself with the challenges of the Human Cell Atlas and building catalogs of cell types in the single-cell era.</p>
 <h2 class="page_break_before" id="concept-of-cell-types">Concept of cell types</h2>
 <p>During the development of <em>fcoex</em> we assumed the common notions of cell type, as a group of cells that share common features. The definition of the concept of “cell type,” however, is currently a topic of debate by the biomedical community.<span class="citation" data-cites="paKiKTRS sWv3okaH 19yYJWEkz BlxFp1v3 eOUB1Bmj TupzTvtA w0Woz7JE srfuRMe 1GXQByEaQ k0Pe9YOB pNGap1Du MoaYZAA0">[<a href="#ref-pNGap1Du" role="doc-biblioref">1</a>,<a href="#ref-paKiKTRS" role="doc-biblioref">24</a>,<a href="#ref-sWv3okaH" role="doc-biblioref">25</a>,<a href="#ref-19yYJWEkz" role="doc-biblioref">26</a>,<a href="#ref-BlxFp1v3" role="doc-biblioref">27</a>,<a href="#ref-eOUB1Bmj" role="doc-biblioref">28</a>,<a href="#ref-TupzTvtA" role="doc-biblioref">29</a>,<a href="#ref-w0Woz7JE" role="doc-biblioref">30</a>,<a href="#ref-srfuRMe" role="doc-biblioref">31</a>,<a href="#ref-1GXQByEaQ" role="doc-biblioref">32</a>,<a href="#ref-k0Pe9YOB" role="doc-biblioref">33</a>,<a href="#ref-MoaYZAA0" role="doc-biblioref">34</a>]</span>.
 In an opinion article published in Cell Systems in 2017, a series of researchers presented their views on the conceptual definition of ‘cell type’ in the context of a mature organism <span class="citation" data-cites="paKiKTRS">[<a href="#ref-paKiKTRS" role="doc-biblioref">24</a>]</span>.
@@ -200,7 +208,7 @@ The opinions were varied, and no consensus was achieved.</p>
 This line of research aligns itself with the groundwork of the Cell Ontology <span class="citation" data-cites="1CI8uS6ka gAysgnsS 17U3pGEjv">[<a href="#ref-1CI8uS6ka" role="doc-biblioref">35</a>,<a href="#ref-gAysgnsS" role="doc-biblioref">36</a>,<a href="#ref-17U3pGEjv" role="doc-biblioref">37</a>]</span> and CELDA <span class="citation" data-cites="RLHsA1U8">[<a href="#ref-RLHsA1U8" role="doc-biblioref">38</a>]</span> and the contributions of the International Workshop on Cells in Experimental Life Sciences series <span class="citation" data-cites="jX2ZmXcc rK8KD0us">[<a href="#ref-jX2ZmXcc" role="doc-biblioref">39</a>,<a href="#ref-rK8KD0us" role="doc-biblioref">40</a>]</span>.</p>
 <p>In this period, we targeted the question: which cell type definition allows crafting coherent biological statements?
 The goal was to not say what cell types <em>are</em>, but what they can be for a consistent representation on a knowledge graph, like Wikidata.
-Furthermore, for the practical purpose adopted here, we avoid the dissection of the differences between persistent classes of cells (often called “cell types”) or the transient, fugacious classes of cells (often called “cell states”) (see “Definition of cell identity” section in <span class="citation" data-cites="pFijpXkl">[<a href="#ref-pFijpXkl" role="doc-biblioref">41</a>]</span> for an example).
+We avoided the dissection of the differences between persistent classes of cells (often called “cell types”) or the transient, fugacious classes of cells (often called “cell states”) (see “Definition of cell identity” section in <span class="citation" data-cites="pFijpXkl">[<a href="#ref-pFijpXkl" role="doc-biblioref">41</a>]</span> for an example).
 Even though such a distinction is an essential topic for theoretical research, it is not required to represent formally biomedical experiments.</p>
 <p>To facilitate communication among life scientists, in a preprint derived from this PHD project<span class="citation" data-cites="uCE45Jh8">[<a href="#ref-uCE45Jh8" role="doc-biblioref">42</a>]</span>, we proposed, among other theoretical advancements, naming conventions for different cell types classes.
 Much of the literature mixes cell types in one species (e.g., when dealing with a cell type as an evolutionary unit) or multiple species (e.g., in the Cell Ontology).
@@ -229,6 +237,7 @@ That might seem obvious, but current standards still use identifiers that are sp
 Notably, the technotype and the infratype are, currently, mostly theoretical constructs and almost no resources deal with cell types at the level of strains or below.
 The division of archetypes and <em>sensu stricto</em> cell types, on the other hand, was already instrumental for the integration of the Panglao database of cell markers to Wikidata, described in the next session.</p>
 <h2 class="page_break_before" id="panglaodb-integration-to-wikidata">PanglaoDB integration to Wikidata</h2>
+<h3 id="introduction">Introduction</h3>
 <p>The process of making the Human Cell Atlas more useful via Wikidata also includes the connection of related databases.</p>
 <p>PanglaoDB <span class="citation" data-cites="M0lqRYJb">[<a href="#ref-M0lqRYJb" role="doc-biblioref">44</a>]</span> <span class="citation" data-cites="T3PlZ3Vh">[<a href="#ref-T3PlZ3Vh" role="doc-biblioref">45</a>]</span> is a publically-available database that contains data and metadata on hundreds of single-cell RNA sequencing experiments.
 It provides extensive information on cell types, genes, and tissues and cell type markers, obtained both via automatic and manual methods.
@@ -237,7 +246,7 @@ It also displays a rich web user interface for easy data acquisition, including 
 Despite its use by the community, the database is on a 3-star category for Linked Open Data <span class="citation" data-cites="OGXYtGZ8">[<a href="#ref-OGXYtGZ8" role="doc-biblioref">46</a>]</span> as it does not use the open semantic standards from W3C (RDF and SPARQL) needed for a 4-star rank, neither the links to external data via standard identifiers that make datasets 5-star.
 Improving the data format toward W3C’s gold standards is a valuable step in making biological knowledge FAIR (Findable, Accessible, Interoperable, and Reusable).
 Thus, we aimed to provide a case study of making the core information of PandlaoDB available in a 5-star Linked Open Data Format while improving the modeling of the necessary concepts on Wikidata.</p>
-<p>As of August 2020, Wikidata had 264 items being categorized as a “cell type” (Wikidata ID Q189118), considerably less than in specialized cell catalogs, which count over two thousand cell types <span class="citation" data-cites="4AEy2xhQ agnqfdk6">[<a href="#ref-agnqfdk6" role="doc-biblioref">23</a>,<a href="#ref-4AEy2xhQ" role="doc-biblioref">47</a>]</span>.
+<p>As of August 2020, Wikidata had 264 items being categorized as a “cell type,” considerably less than in specialized cell catalogs, which count over two thousand cell types <span class="citation" data-cites="4AEy2xhQ agnqfdk6">[<a href="#ref-agnqfdk6" role="doc-biblioref">23</a>,<a href="#ref-4AEy2xhQ" role="doc-biblioref">47</a>]</span>.
 Strikingly, there were also 23 items categorized as “instances of cell (Q7868)” . This classification is imprecise, as an instance of cell would be an individual named cell from a single named individual.</p>
 <p>Wikidata editors often mix first-order classes such as “cells” and “organs” with second-order classes like “cell types” and “organ types” (Supplementary Information). First-order classes point to real-world individuals, like the “Dolly sheep zygote” (a real-world “cell”) and the “brain of Albert Einstein” (a real-world “organ”). Second-order classes point to classes, like “zygote” (a conceptual “cell type”) and “brain” (a conceptual “organ type”).</p>
 <p>We diligently fixed and improved information on cell types on Wikidata.
@@ -432,7 +441,7 @@ The approach we took here can in essence be applied to any knowledge set of publ
 <div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>About the Data Coordination Platform</strong> <div class="csl-block">HCA Data Portal</div> <a href="https://data.humancellatlas.org/about/">https://data.humancellatlas.org/about/</a></div>
 </div>
 <div id="ref-kkwRTArg" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>The Human Cell Atlas White Paper</strong> <div class="csl-block">Aviv Regev, Sarah Teichmann, Orit Rozenblatt-Rosen, Michael JT Stubbington, Kristin Ardlie, Amir Giladi, Paola Arlotta, Gary D Bader, Christophe Benoist, Moshe Biton, … Human Cell Atlas Organizing Committee</div> (2018-10-11) <a href="https://www.wikidata.org/wiki/Q104450645">https://www.wikidata.org/wiki/Q104450645</a></div>
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>The Human Cell Atlas White Paper</strong> <a href="https://www.wikidata.org/wiki/Q104450645">https://www.wikidata.org/wiki/Q104450645</a></div>
 </div>
 <div id="ref-jXryyPLB" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Literature-based discovery</strong> <div class="csl-block">Wikipedia</div> (2021-01-24) <a href="https://en.wikipedia.org/w/index.php?title=Literature-based_discovery&amp;oldid=1002467308">https://en.wikipedia.org/w/index.php?title=Literature-based_discovery&amp;oldid=1002467308</a></div>
@@ -561,7 +570,7 @@ The approach we took here can in essence be applied to any knowledge set of publ
 <div class="csl-left-margin">47. </div><div class="csl-right-inline"><strong>CellFinder: a cell data repository</strong> <div class="csl-block">Harald Stachelscheid, Stefanie Seltmann, Fritz Lekschas, Jean-Fred Fontaine, Nancy Mah, Mariana Lara Neves, Miguel A Andrade-Navarro, Ulf Leser, Andreas Kurtz</div> <em>Nucleic Acids Research</em> (2013-12-03) <a href="https://www.wikidata.org/wiki/Q28660708">https://www.wikidata.org/wiki/Q28660708</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkt1264">10.1093/nar/gkt1264</a></div></div>
 </div>
 <div id="ref-qDI8I4IJ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">48. </div><div class="csl-right-inline"><strong>SuLab/WikidataIntegrator</strong> <div class="csl-block">Su Lab</div> (2021-06-16) <a href="https://github.com/SuLab/WikidataIntegrator">https://github.com/SuLab/WikidataIntegrator</a></div>
+<div class="csl-left-margin">48. </div><div class="csl-right-inline"><strong>SuLab/WikidataIntegrator</strong> <div class="csl-block">Su Lab</div> (2021-06-21) <a href="https://github.com/SuLab/WikidataIntegrator">https://github.com/SuLab/WikidataIntegrator</a></div>
 </div>
 <div id="ref-HUJ9NzAb" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">49. </div><div class="csl-right-inline"><strong>UniProt</strong> <a href="https://sparql.uniprot.org/sparql">https://sparql.uniprot.org/sparql</a></div>

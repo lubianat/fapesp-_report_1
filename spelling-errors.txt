@@ -84,14 +84,14 @@ nk
 OBO
 oligodendrocyte
 OMP
-ontologies
+Ontologies
 osteoclast
 PandlaoDB
 Panglao
 PanglaoDB
 PanglaoDB’s
 pathophysiology
-Paulo
+PAULO
 PBMC
 PCSK
 perfomed
@@ -120,7 +120,7 @@ stricto
 sucessfull
 Tabula
 Takashi
-Technotype
+technotype
 technotypes
 tecnichal
 Tiago

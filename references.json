@@ -629,7 +629,7 @@
         [
           "2021",
           6,
-          17
+          21
         ]
       ]
     },
@@ -659,7 +659,7 @@
         [
           "2021",
           6,
-          17
+          21
         ]
       ]
     }
@@ -679,7 +679,7 @@
         [
           "2021",
           6,
-          16
+          21
         ]
       ]
     },
@@ -688,7 +688,7 @@
         [
           "2021",
           6,
-          17
+          21
         ]
       ]
     }
@@ -704,7 +704,7 @@
         [
           "2021",
           6,
-          17
+          21
         ]
       ]
     },
@@ -720,7 +720,7 @@
         [
           "2021",
           6,
-          17
+          21
         ]
       ]
     },
@@ -737,7 +737,7 @@
         [
           "2021",
           6,
-          17
+          21
         ]
       ]
     },
@@ -753,7 +753,7 @@
         [
           "2021",
           6,
-          17
+          21
         ]
       ]
     },
@@ -769,7 +769,7 @@
         [
           "2021",
           6,
-          17
+          21
         ]
       ]
     },
@@ -832,346 +832,20 @@
   },
   {
     "id": "kkwRTArg",
-    "type": "article-journal",
+    "type": "webpage",
     "title": "The Human Cell Atlas White Paper",
-    "source": "Wikidata",
-    "author": [
-      {
-        "family": "Regev",
-        "given": "Aviv"
-      },
-      {
-        "family": "Teichmann",
-        "given": "Sarah"
-      },
-      {
-        "family": "Rozenblatt-Rosen",
-        "given": "Orit"
-      },
-      {
-        "family": "Stubbington",
-        "given": "Michael J. T."
-      },
-      {
-        "family": "Ardlie",
-        "given": "Kristin"
-      },
-      {
-        "family": "Giladi",
-        "given": "Amir"
-      },
-      {
-        "family": "Arlotta",
-        "given": "Paola"
-      },
-      {
-        "family": "Bader",
-        "given": "Gary D."
-      },
-      {
-        "family": "Benoist",
-        "given": "Christophe"
-      },
-      {
-        "family": "Biton",
-        "given": "Moshe"
-      },
-      {
-        "family": "Bodenmiller",
-        "given": "Bernd"
-      },
-      {
-        "family": "Bruneau",
-        "given": "Benoit"
-      },
-      {
-        "family": "Campbell",
-        "given": "Peter J."
-      },
-      {
-        "family": "Carmichael",
-        "given": "Mary"
-      },
-      {
-        "family": "Carninci",
-        "given": "Piero"
-      },
-      {
-        "family": "Castelo-Soccio",
-        "given": "Leslie"
-      },
-      {
-        "family": "Clatworthy",
-        "given": "Menna R."
-      },
-      {
-        "family": "Clevers",
-        "given": "Hans"
-      },
-      {
-        "family": "Conrad",
-        "given": "Christian"
-      },
-      {
-        "family": "Eils",
-        "given": "Roland"
-      },
-      {
-        "family": "Freeman",
-        "given": "Jeremy"
-      },
-      {
-        "family": "Fugger",
-        "given": "Lars"
-      },
-      {
-        "family": "Goettgens",
-        "given": "Berthold"
-      },
-      {
-        "family": "Graham",
-        "given": "Daniel B."
-      },
-      {
-        "family": "Greka",
-        "given": "Anna"
-      },
-      {
-        "family": "Hacohen",
-        "given": "Nir"
-      },
-      {
-        "family": "Haniffa",
-        "given": "Muzlifah"
-      },
-      {
-        "family": "Helbig",
-        "given": "Ingo"
-      },
-      {
-        "family": "Heuckeroth",
-        "given": "Robert"
-      },
-      {
-        "family": "Kathiresan",
-        "given": "Sekar"
-      },
-      {
-        "family": "Kim",
-        "given": "Seung"
-      },
-      {
-        "family": "Klein",
-        "given": "Allon M."
-      },
-      {
-        "family": "Knoppers",
-        "given": "Bartha"
-      },
-      {
-        "family": "Kriegstein",
-        "given": "Arnold"
-      },
-      {
-        "family": "Lander",
-        "given": "Eric"
-      },
-      {
-        "family": "Lee",
-        "given": "Jane"
-      },
-      {
-        "family": "Lein",
-        "given": "Ed S."
-      },
-      {
-        "family": "Linnarsson",
-        "given": "Sten"
-      },
-      {
-        "family": "Macosko",
-        "given": "Evan Z."
-      },
-      {
-        "family": "MacParland",
-        "given": "Sonya A."
-      },
-      {
-        "family": "Majovski",
-        "given": "Robert"
-      },
-      {
-        "family": "Majumder",
-        "given": "Partha P."
-      },
-      {
-        "family": "Marioni",
-        "given": "John C."
-      },
-      {
-        "family": "McGilvray",
-        "given": "Ian D."
-      },
-      {
-        "family": "Merad",
-        "given": "Miriam"
-      },
-      {
-        "family": "Mhlanga",
-        "given": "Musa"
-      },
-      {
-        "family": "Naik",
-        "given": "Shalin"
-      },
-      {
-        "family": "Nawijn",
-        "given": "Martijn C."
-      },
-      {
-        "family": "Nolan",
-        "given": "Garry P."
-      },
-      {
-        "family": "Paten",
-        "given": "Benedict"
-      },
-      {
-        "family": "Pe'er",
-        "given": "Dana"
-      },
-      {
-        "family": "Philippakis",
-        "given": "Anthony"
-      },
-      {
-        "family": "Ponting",
-        "given": "Chris"
-      },
-      {
-        "family": "Quake",
-        "given": "Steve"
-      },
-      {
-        "family": "Rajagopal",
-        "given": "Jayaraj"
-      },
-      {
-        "family": "Rajewsky",
-        "given": "Nikolaus"
-      },
-      {
-        "family": "Reik",
-        "given": "Wolf"
-      },
-      {
-        "family": "Rood",
-        "given": "Jennifer"
-      },
-      {
-        "family": "Saeb-Parsy",
-        "given": "Kourosh"
-      },
-      {
-        "family": "Schiller",
-        "given": "Herbert B."
-      },
-      {
-        "family": "Scott",
-        "given": "Steve"
-      },
-      {
-        "family": "Shalek",
-        "given": "Alex K."
-      },
-      {
-        "family": "Shapiro",
-        "given": "Ehud"
-      },
-      {
-        "family": "Shin",
-        "given": "Jay W."
-      },
-      {
-        "family": "Skeldon",
-        "given": "Kenneth"
-      },
-      {
-        "family": "Stratton",
-        "given": "Michael"
-      },
-      {
-        "family": "Streicher",
-        "given": "Jenna"
-      },
-      {
-        "family": "Stunnenberg",
-        "given": "Henk"
-      },
-      {
-        "family": "Tan",
-        "given": "Kai"
-      },
-      {
-        "family": "Taylor",
-        "given": "Deanne M."
-      },
-      {
-        "family": "Thorogood",
-        "given": "Adrian"
-      },
-      {
-        "family": "Vallier",
-        "given": "Ludovic"
-      },
-      {
-        "family": "Oudenaarden",
-        "given": "Alexander",
-        "dropping-particle": "van"
-      },
-      {
-        "family": "Watt",
-        "given": "Fiona"
-      },
-      {
-        "family": "Weicher",
-        "given": "Wilko"
-      },
-      {
-        "family": "Weissman",
-        "given": "Jonathan"
-      },
-      {
-        "family": "Wells",
-        "given": "Andrew"
-      },
-      {
-        "family": "Wold",
-        "given": "Barbara J."
-      },
-      {
-        "family": "Xavier",
-        "given": "Ramnik J."
-      },
-      {
-        "family": "Zhuang",
-        "given": "Xiaowei"
-      },
-      {
-        "family": "Committee",
-        "given": "Human Cell Atlas Organizing"
-      }
-    ],
-    "issued": {
+    "abstract": "journal article from 'arXiv:1810.05192 [q-bio]' published in 2018",
+    "URL": "https://www.wikidata.org/wiki/Q104450645",
+    "language": "en",
+    "accessed": {
       "date-parts": [
         [
-          "2018",
-          10,
-          11
+          "2021",
+          6,
+          21
         ]
       ]
     },
-    "URL": "https://www.wikidata.org/wiki/Q104450645",
     "note": "This CSL Item was generated by Manubot v0.5.1 from its persistent identifier (standard_id).\nstandard_id: wikidata:Q104450645"
   },
   {
@@ -1300,7 +974,7 @@
         [
           "2021",
           6,
-          17
+          21
         ]
       ]
     },

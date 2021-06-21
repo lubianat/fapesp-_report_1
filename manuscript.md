@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-06-17'
+date-meta: '2021-06-21'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-06-17" />
-  <meta name="citation_publication_date" content="2021-06-17" />
+  <meta name="dc.date" content="2021-06-21" />
+  <meta name="citation_publication_date" content="2021-06-21" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/fapesp_report_1/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/fapesp_report_1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/fapesp_report_1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/fapesp_report_1/v/f10dfcfd99f46d50c2f751b94ae4e68599c871fe/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/f10dfcfd99f46d50c2f751b94ae4e68599c871fe/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/f10dfcfd99f46d50c2f751b94ae4e68599c871fe/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/fapesp_report_1/v/7f8e11bbc32c792bedcfee9e0b697aa6a2d2232a/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/7f8e11bbc32c792bedcfee9e0b697aa6a2d2232a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/7f8e11bbc32c792bedcfee9e0b697aa6a2d2232a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/fapesp_report_1/v/f10dfcfd99f46d50c2f751b94ae4e68599c871fe/))
+([permalink](https://lubianat.github.io/fapesp_report_1/v/7f8e11bbc32c792bedcfee9e0b697aa6a2d2232a/))
 was automatically generated
-from [lubianat/fapesp_report_1@f10dfcf](https://github.com/lubianat/fapesp_report_1/tree/f10dfcfd99f46d50c2f751b94ae4e68599c871fe)
-on June 17, 2021.
+from [lubianat/fapesp_report_1@7f8e11b](https://github.com/lubianat/fapesp_report_1/tree/7f8e11bbc32c792bedcfee9e0b697aa6a2d2232a)
+on June 21, 2021.
 </em></small>
 
 ## Authors
@@ -192,7 +192,7 @@ The specific goals outlined in the approved project were:
 
 In the first year of the project, we addressed 3 different facets of the project. 
 
-The first facet was the refinement of the fcoex R/Bioconductor project, written for the detection of cell classes in single-cell RNA-seq data.
+The first facet was the refinement of the fcoex R/Bioconductor framework, written for the detection of cell classes in single-cell RNA-seq data.
 The second facet dealt with the concept of cell type itself, in the goal of building theoretical models for the formalization of knowledge. 
 The third facet was aimed at the practical application of the concepts. 
 We adapted a public database of cell type markers, Panglao DB, to the Wikidata format, made the information available through Wikidata and perfomed SPARQL (SPARQL Protocol and RDF Query Language) queries to glance at the information on the database. 
@@ -203,10 +203,10 @@ The fcoex (https://bioconductor.org/packages/fcoex/) was written by us to identi
 
 The fcoex method is designed for application right after a standard scRNA-seq clustering step (@fig:fcoex A). The cluster assignments convey information about the relations between cells to the algorithm and help to guide feature selection. Then, the package selects global marker genes specific to 1, 2, or more previously defined clusters. It ranks markers by symmetrical uncertainty, a non-linear correlation metric based on classical Shannon entropy. [@wikidata:Q106704674]
 
-To find co-expression modules, fcoex inverts the FCBF feature selection algorithm, and instead of removing redundancy, it selects redundant (co-expressed) gene expression patterns. (see Supplementary Data for details). The default gene coexpression modules yielded by the pipeline are small by design (10s of genes per module) to facilitate manual exploration of the coexpression landscape. Each module has one “header” gene, which expression pattern better represents all the genes in the module.
+To find co-expression modules, fcoex inverts the FCBF feature selection algorithm, and instead of removing redundancy, it selects redundant (co-expressed) gene expression patterns. 
+The default gene coexpression modules yielded by the pipeline are small by design (10s of genes per module) to facilitate manual exploration of the coexpression landscape. Each module has one “header” gene, which expression pattern better represents all the genes in the module.
 
 Fcoex treats each module as a gene set to find cell populations, using only their expression to re-cluster cells. The new classifications are based, thus, on the genes (and functions) captured by each co-expression module.  The multiple module-based clusters serve as a platform for exploring the diversity of the dataset and identifying upper cell classes, grouping cells by common functions. 
-
 
 ![Reclustering based on co-expression modules sheds light on cell diversity. The pre-labeled pbmc3k dataset, with original, SeuratData labels. B) fcoex coexpression modules capture patterns across PBMC populations. C-D) Module-based reclustering shows groupings of original clusters, visible both via UMAP projection and cluster x cluster heatmap. E) Upper-level, multilayer classification of the pbmc3k dataset based on fcoex  modules. APCs: Antigen Processing Cells; ADCC: Antibody-dependent cellular cytotoxicity.](images/fcoex.jpg){#fig:fcoex}
 
@@ -214,11 +214,18 @@ Fcoex treats each module as a gene set to find cell populations, using only thei
 
 To validate the fcoex pipeline, we selected the well-known pbmc3k dataset from the SeuratData R package, which contains around 2700 peripheral blood mononuclear cells (PBMC) with previously-defined cluster labels.
 
-The standard fcoex pipeline detected nine modules that capture different parts of the cellular diversity in the dataset. For example, module M8 contains cytotoxicity genes, as PRF1 and GZMA, and splits the dataset into cytotoxic (NK and CD8) and non-cytotoxic cells. M2 (CD3D) splits the dataset in T-cells and non-T-cells. M5 (HLA-DRB1) groups together monocytes, B cells, and dendritic cells, all known antigen-presenting cells (APC). (@fig:fcoex B-E) The classifications provided by fcoex are easily reintegrated to Seurat to power visualizations and get  differentially expressed markers, providing more genes for the analysis, if desired. 
+The standard fcoex pipeline detected nine modules that capture different parts of the cellular diversity in the dataset. 
+For example, module M8 contains cytotoxicity genes, as PRF1 and GZMA, and splits the dataset into cytotoxic (NK and CD8) and non-cytotoxic cells. M2 (CD3D) splits the dataset in T-cells and non-T-cells. 
+M5 (HLA-DRB1) groups together monocytes, B cells, and dendritic cells, all known antigen-presenting cells (APC) (@fig:fcoex B-E) 
+The classifications provided by fcoex are easily reintegrated to Seurat to power visualizations and get  differentially expressed markers, providing more genes for the analysis, if desired. 
 
-In general, fcoex clusters combined biologically similar cell types of the original dataset. The clusterings help to explore and classify cells by function (@fig:fcoex E). Even in a well-studied dataset, fcoex provided a new light on the shared functionality of some NK cells and macrophages: they both markedly express the CD16-coding gene FCGR3A, whose product is a key player in antibody-dependent cellular cytotoxicity (ADCC). [@wikidata:Q27341786] Thus, a complete functional classification of cells might want to include a “professional ADCC cells" class
+In general, fcoex clusters combined biologically similar cell types of the original dataset.
+The clusterings help to explore and classify cells by function (@fig:fcoex E). 
+Even in a well-studied dataset, fcoex provided a new light on the shared functionality of some NK cells and macrophages: they both markedly express the CD16-coding gene FCGR3A, whose product is a key player in antibody-dependent cellular cytotoxicity (ADCC). [@wikidata:Q27341786] 
+Thus, a complete functional classification of cells might want to include a “professional ADCC cells" class
 
-To sum up, main goal of the fcoex pipeline is to use the modules to find biologically relevant populations, which then can be represented in ontologies, like the Cell Ontology [@wikidata:Q36067763], and by knowledge graphs, like Wikidata. By doing so, fcoex offers new avenues to explore data-driven classifications of cells, aligning itself with  the challenges of the Human Cell Atlas and building catalogs of cell types in the single-cell era.
+To sum up, main goal of the fcoex pipeline is to use the modules to find biologically relevant populations, which then can be represented in ontologies, like the Cell Ontology [@wikidata:Q36067763], and by knowledge graphs, like Wikidata.
+By doing so, fcoex offers new avenues to explore data-driven classifications of cells, aligning itself with  the challenges of the Human Cell Atlas and building catalogs of cell types in the single-cell era.
 
 ## Concept of cell types  {.page_break_before}
 
@@ -228,11 +235,11 @@ In an opinion article published in Cell Systems in 2017, a series of researchers
 The opinions were varied, and no consensus was achieved.
 
 Before we proceeded with the knowledge-graph formalizations via Wikidata, we dedicated time for a theoretical research on the concept of "cell type" in the context of knowledge representation. 
-This line of research aligns itself with the groundwork of the Cell Ontology [@wikidata:Q21184168; @doi:10.1186/1471-2105-12-6; @doi:10.1186/s13326-016-0088-7] and   CELDA [@wikidata:Q21284308]  and the contributions of the International Workshop on Cells in Experimental Life Sciences series [@doi:10.1186/s12859-017-1976-2; @doi:10.1186/s12859-019-2721-9].
+This line of research aligns itself with the groundwork of the Cell Ontology [@wikidata:Q21184168; @doi:10.1186/1471-2105-12-6; @doi:10.1186/s13326-016-0088-7] and CELDA [@wikidata:Q21284308]  and the contributions of the International Workshop on Cells in Experimental Life Sciences series [@doi:10.1186/s12859-017-1976-2; @doi:10.1186/s12859-019-2721-9].
 
 In this period, we targeted the question: which cell type definition allows crafting coherent biological statements? 
 The goal was to not say what cell types _are_, but what they can be for a consistent representation on a knowledge graph, like Wikidata.
-Furthermore, for the practical purpose adopted here, we avoid the dissection of the differences between persistent classes of cells (often called "cell types") or the transient, fugacious classes of cells (often called "cell states") (see "Definition of cell identity" section in [@wikidata:Q48563763] for an example).
+We avoided the dissection of the differences between persistent classes of cells (often called "cell types") or the transient, fugacious classes of cells (often called "cell states") (see "Definition of cell identity" section in [@wikidata:Q48563763] for an example).
 Even though such a distinction is an essential topic for theoretical research, it is not required to represent formally biomedical experiments.
 
 To facilitate communication among life scientists, in a preprint derived from this PHD project[@doi:10.22541/au.160979530.02627436/v1], we proposed, among other theoretical advancements, naming conventions for different cell types classes. 
@@ -264,6 +271,8 @@ The division of archetypes and _sensu stricto_ cell types, on the other hand, wa
 
 ## PanglaoDB integration to Wikidata  {.page_break_before}
 
+### Introduction
+
 The process of making the Human Cell Atlas more useful via Wikidata also includes the connection of related databases. 
 
 PanglaoDB [@https://panglaodb.se/index.html] [@doi:10.1093/database/baz046] is a publically-available database that contains data and metadata on hundreds of single-cell RNA sequencing experiments. 
@@ -276,7 +285,7 @@ Despite its use by the community, the database is on a 3-star category for Linke
 Improving the data format toward W3C's gold standards is a valuable step in making biological knowledge FAIR (Findable, Accessible, Interoperable, and Reusable). 
 Thus, we aimed to provide a case study of making the core information of PandlaoDB available in a 5-star Linked Open Data Format while improving the modeling of the necessary concepts on Wikidata.
 
-As of August 2020, Wikidata had 264 items being categorized as a "cell type" (Wikidata ID Q189118), considerably less than in specialized cell catalogs, which count over two thousand cell types [@wikidata:Q28660708; @wikidata:Q36067763].
+As of August 2020, Wikidata had 264 items being categorized as a "cell type", considerably less than in specialized cell catalogs, which count over two thousand cell types [@wikidata:Q28660708; @wikidata:Q36067763].
 Strikingly, there were also 23 items categorized as "instances of cell (Q7868)" . This classification is imprecise, as an instance of cell would be an individual named cell from a single named individual.
 
 Wikidata editors often mix first-order classes such as "cells" and "organs" with second-order classes like "cell types" and "organ types" (Supplementary Information). First-order classes point to real-world individuals, like the "Dolly sheep zygote" (a real-world "cell") and the "brain of Albert Einstein" (a real-world "organ"). Second-order classes point to classes, like "zygote" (a conceptual "cell type") and "brain" (a conceptual "organ type").
