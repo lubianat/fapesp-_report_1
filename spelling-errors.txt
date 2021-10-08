@@ -42,8 +42,8 @@ FAPESP
 FARMACÊUTICAS
 FCBF
 FCGR
-fcoex
-Findable
+Fcoex
+findable
 fo
 formalizations
 Franzen
@@ -61,7 +61,7 @@ HuBMAP
 Imoto
 infratype
 infratypes
-interoperable
+Interoperable
 iscb
 janeroe
 johndoe
@@ -84,7 +84,7 @@ nk
 OBO
 oligodendrocyte
 OMP
-ontologies
+Ontologies
 osteoclast
 PandlaoDB
 Panglao
@@ -92,7 +92,7 @@ PanglaoDB
 PanglaoDB’s
 pathophysiology
 Paulo
-PBMC
+pbmc
 PCSK
 perfomed
 pre
@@ -127,7 +127,7 @@ Tiago
 Toxicológicas
 UMAP
 understandability
-UniProt
+Uniprot
 UNIVERSIDADE
 WikidataIntegrator
 Wikidata’s

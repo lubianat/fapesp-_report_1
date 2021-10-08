@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-06-21'
+date-meta: '2021-10-08'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-06-21" />
-  <meta name="citation_publication_date" content="2021-06-21" />
+  <meta name="dc.date" content="2021-10-08" />
+  <meta name="citation_publication_date" content="2021-10-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/fapesp_report_1/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/fapesp_report_1/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/fapesp_report_1/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/fapesp_report_1/v/c15e8cdea6190f84fc1052eea09a3acda2c44731/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/c15e8cdea6190f84fc1052eea09a3acda2c44731/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/c15e8cdea6190f84fc1052eea09a3acda2c44731/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/fapesp_report_1/v/873cbdaeab64901ffe8ca6b4bf07189467d65d4e/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/873cbdaeab64901ffe8ca6b4bf07189467d65d4e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/fapesp_report_1/v/873cbdaeab64901ffe8ca6b4bf07189467d65d4e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/fapesp_report_1/v/c15e8cdea6190f84fc1052eea09a3acda2c44731/))
+([permalink](https://lubianat.github.io/fapesp_report_1/v/873cbdaeab64901ffe8ca6b4bf07189467d65d4e/))
 was automatically generated
-from [lubianat/fapesp_report_1@c15e8cd](https://github.com/lubianat/fapesp_report_1/tree/c15e8cdea6190f84fc1052eea09a3acda2c44731)
-on June 21, 2021.
+from [lubianat/fapesp_report_1@873cbda](https://github.com/lubianat/fapesp_report_1/tree/873cbdaeab64901ffe8ca6b4bf07189467d65d4e)
+on October 8, 2021.
 </em></small>
 
 ## Authors
